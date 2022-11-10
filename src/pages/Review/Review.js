@@ -4,7 +4,6 @@ import useTitle from '../../Hooks/useTitle';
 
 
 
-
 const Review = ({rev}) => {
  useTitle('Review')
 const {displayName, message, photoURL}=rev;
