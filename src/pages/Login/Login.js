@@ -40,7 +40,7 @@ const provider= new GoogleAuthProvider()
             console.log(currentUser)
 
 
-            fetch('http://localhost:5000/jwt',{
+            fetch('https://service-assignment-server-11.vercel.app/jwt',{
                 method: 'POST',
                 headers: {
                     'Content-type': 'application/json'

@@ -8,7 +8,7 @@ const SaveCard = () => {
 
 
     useEffect(()=>{
-        fetch('http://localhost:5000/newservice')
+        fetch('https://service-assignment-server-11.vercel.app/newservice')
         .then(res => res.json())
         .then(data => {
           console.log(data)

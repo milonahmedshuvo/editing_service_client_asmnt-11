@@ -20,7 +20,7 @@ useTitle("ServiceAll")
 
 useEffect(()=>{
     setLoading(true)
-    fetch('http://localhost:5000/service')
+    fetch('https://service-assignment-server-11.vercel.app/service')
     .then(res => res.json())
     .then(data => {
       console.log(data)

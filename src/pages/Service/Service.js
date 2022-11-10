@@ -13,7 +13,7 @@ const Service = () => {
  useTitle('Service')
 
  useEffect(()=>{
-    fetch('http://localhost:5000/servicelimit')
+    fetch('https://service-assignment-server-11.vercel.app/servicelimit')
     .then((res)=>res.json())
     .then((data)=>setService(data))
     .catch((err)=>console.log(err))

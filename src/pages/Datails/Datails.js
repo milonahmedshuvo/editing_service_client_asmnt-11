@@ -39,7 +39,7 @@ console.log(review)
 
 
            if(user?.email){
-            fetch('http://localhost:5000/review',{
+            fetch('https://service-assignment-server-11.vercel.app/review',{
                 method:"POST",
                 headers:{
                     "content-type":'application/json'
@@ -77,7 +77,7 @@ console.log(review)
 
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/review/${_id}`)
+        fetch(`https://service-assignment-server-11.vercel.app/review/${_id}`)
         .then((res)=>res.json())
         .then((data)=>{
             setReview(data)

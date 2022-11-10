@@ -13,7 +13,7 @@ const Myreview = () => {
     useTitle('Myreview')
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/myreview?email=${user?.email}`, {
+        fetch(`https://service-assignment-server-11.vercel.app/myreview?email=${user?.email}`, {
             
             headers: {
                 authorization: `Bearer ${localStorage.getItem('token')}`
@@ -33,7 +33,7 @@ const Myreview = () => {
     const handleDalate=(id)=>{
 
        
-        fetch(`http://localhost:5000/myreview/${id}`,{
+        fetch(`https://service-assignment-server-11.vercel.app/myreview/${id}`,{
             method: 'DELETE'
         })
         .then(res => res.json())
@@ -55,7 +55,7 @@ const Myreview = () => {
         const agree = window.prompt('update')
         console.log(agree)
        
-            fetch(`http://localhost:5000/reviews/${id}`,{
+            fetch(`https://service-assignment-server-11.vercel.app/reviews/${id}`,{
                 method: 'PATCH',
                 headers: {
                     'Content-type': 'application/json'

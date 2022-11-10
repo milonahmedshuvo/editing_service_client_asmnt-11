@@ -36,7 +36,7 @@ const router=createBrowserRouter([
         {
             path:'/service/:id',
             element:<Datails></Datails>,
-            loader:({params})=>fetch(`http://localhost:5000/service/${params.id}`)
+            loader:({params})=>fetch(`https://service-assignment-server-11.vercel.app/service/${params.id}`)
         },
         {
             path:'/blog',
