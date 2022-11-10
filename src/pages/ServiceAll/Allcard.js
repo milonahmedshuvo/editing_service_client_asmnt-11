@@ -32,3 +32,4 @@ const Allcard = ({card}) => {
 };
 
 export default Allcard;
+
