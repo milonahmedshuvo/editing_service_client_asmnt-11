@@ -4,7 +4,6 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
 
 
-
 const Allcard = ({card}) => {
 
     const {_id, img, title, price, drescription}=card;
