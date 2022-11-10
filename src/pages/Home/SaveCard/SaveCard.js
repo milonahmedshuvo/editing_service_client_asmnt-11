@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import SinglesaveCard from './SinglesaveCard';
 
 
-
 const SaveCard = () => {
     const [service, setService] = useState([])
 
