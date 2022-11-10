@@ -18,7 +18,6 @@ useTitle("ServiceAll")
 
 
 
-
 useEffect(()=>{
     setLoading(true)
     fetch('http://localhost:5000/service')
