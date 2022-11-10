@@ -38,4 +38,5 @@ body.length >100? <p>{body.slice(0, 100)+"..."}</p>:{body}
     );
 };
 
+
 export default SinglesaveCard;
