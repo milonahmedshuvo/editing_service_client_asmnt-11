@@ -94,6 +94,7 @@ const Feedback = () => {
 <img src="https://themeim.com/demo/cliper/assets/img/testimonial/test3.png" alt="" />
 </div>
 
+
 <div className='ml-2'>
  <p>Ananta Jalli</p>
  <p>Doctor</p>
