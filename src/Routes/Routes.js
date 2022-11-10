@@ -31,10 +31,7 @@ const router=createBrowserRouter([
         },
         {
             path:'/serviceall',
-            element:<ServiceAll></ServiceAll>,
-            loader:()=>{
-                return fetch('http://localhost:5000/service')
-            }
+            element:<ServiceAll></ServiceAll>   
         },
         {
             path:'/service/:id',
