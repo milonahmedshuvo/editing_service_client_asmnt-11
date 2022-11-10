@@ -96,6 +96,7 @@ const Feedback = () => {
 
 
 <div className='ml-2'>
+  
  <p>Ananta Jalli</p>
  <p>Doctor</p>
 </div>
