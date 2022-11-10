@@ -106,4 +106,6 @@ const handleUpdatePhofile=(name, img)=>{
     );
 };
 
+
+
 export default SingUp;
