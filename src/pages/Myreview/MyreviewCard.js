@@ -27,3 +27,5 @@ const MyreviewCard = ({ myreview,  handleDalate, handleUpdate}) => {
 };
 
 export default MyreviewCard;
+
+
