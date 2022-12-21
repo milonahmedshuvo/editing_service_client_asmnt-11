@@ -9,7 +9,7 @@ const Footer = () => {
 
     return (
         <div className='my-10 w-full'>
-             <footer className="footer  bg-black p-24 text-white">
+             <footer className="footer bg-black p-10 md:p-24 text-white">
   <div>
     <span className="footer-title">Services</span> 
     <a className="link link-hover">Adjusting contrast & brightness</a> 

@@ -50,7 +50,7 @@ const Addservice = () => {
         
     }
     return (
-        <div className='w-2/3 mx-auto my-20'>
+        <div className='w-11/12 md:w-2/3 mx-auto my-20'>
             <form onSubmit={handleServiceUpdate} className='px-5'>
                 <div>
                     <textarea name="title" className="input w-full mb-3 input-primary" placeholder="Product Title" required></textarea>

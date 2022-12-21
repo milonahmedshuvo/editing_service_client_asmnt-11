@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Spiner from '../../Modal/Spiner';
 import SinglesaveCard from './SinglesaveCard';
 
 
@@ -8,12 +9,16 @@ const SaveCard = () => {
 
 
     useEffect(()=>{
+        
         fetch('https://service-assignment-server-11.vercel.app/newservice')
         .then(res => res.json())
         .then(data => {
           console.log(data)
           setService(data)})
+          
     }, [])
+
+  
 
 
     return (

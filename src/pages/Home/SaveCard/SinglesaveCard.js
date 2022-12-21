@@ -12,7 +12,7 @@ const { title,body,img,price, _id}=single;
 
     return (
         <div>
-                <div className="card card-compact w-96 bg-base-100 shadow-xl">
+                <div className="card card-compact  bg-base-100 shadow-xl">
 
 <PhotoProvider>
    <PhotoView src={img}>
@@ -23,11 +23,7 @@ const { title,body,img,price, _id}=single;
 
 <div className="card-body">
 <h2 className="card-title">{title}</h2>
-<>
-{
-body.length >100? <p>{body.slice(0, 100)+"..."}</p>:{body}
-}
-</>
+<p>{body}</p>
 <div className="card-actions justify-between items-center">
 <p className='font-bold text-orange-600 text-2xl'>Price${price}</p>
 <Link to={`/service/${_id}`}><button className="btn btn-warning">Datails</button></Link>

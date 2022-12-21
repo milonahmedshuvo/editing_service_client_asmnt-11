@@ -15,9 +15,9 @@ const Feedback = () => {
 
 
 
-           <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10 '>
+           <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10 gap-6 '>
            <div>
-           <div className="card w-96 bg-base-100 shadow-sm">
+           <div className="card  bg-base-100 shadow-sm">
   <div className="card-body">
     <h2 className="card-title text-orange-300"> 
     <FaStar></FaStar>
@@ -48,7 +48,7 @@ const Feedback = () => {
 
 
            <div>
-           <div className="card w-96 bg-base-100 shadow-xl">
+           <div className="card  bg-base-100 shadow-xl">
   <div className="card-body">
     <h2 className="card-title text-orange-300">
     <FaStar></FaStar>
@@ -78,7 +78,7 @@ const Feedback = () => {
 
 
        <div>
-       <div className="card w-96 bg-base-100 shadow-xl">
+       <div className="card  bg-base-100 shadow-xl">
   <div className="card-body">
     <h2 className="card-title text-orange-300">
     <FaStar></FaStar>

@@ -39,7 +39,7 @@ const manuBar= <>
 
 
     return (
-        <div className="navbar bg-base-100 drop-shadow-lg">
+        <div className="navbar bg-base-100  ">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -58,7 +58,7 @@ const manuBar= <>
     <figure><img src="https://pngimage.net/wp-content/uploads/2018/05/edit-logo-png-7.png" alt="Shoes" /></figure>
     </a>
   </div>
-  <div className="navbar-center hidden lg:flex">
+  <div className="navbar-end hidden lg:flex">
     <ul className="menu menu-horizontal p-0">
       
      {manuBar}
@@ -66,9 +66,8 @@ const manuBar= <>
 
     </ul>
   </div>
-  <div className="navbar-end">
-    <a className="btn">Get started</a>
-  </div>
+  
+
 </div>
     );
 };

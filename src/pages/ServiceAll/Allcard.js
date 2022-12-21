@@ -8,7 +8,7 @@ const Allcard = ({card}) => {
 
     const {_id, img, title, price, drescription}=card;
     return (
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+        <div className="card card-compact  bg-base-100 shadow-xl">
 
             <PhotoProvider>
                 <PhotoView src={img}>
